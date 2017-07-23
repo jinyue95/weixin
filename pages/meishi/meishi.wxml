@@ -1,0 +1,38 @@
+<!--pages/meishi/meishi.wxml-->
+<!--logs.wxml-->
+<view class="navbar">  
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+</view>  
+  
+<!--首页-->  
+<view hidden="{{currentTab!==0}}">  
+<view class="list" wx:for="{{arr}}">
+  <view class="left">
+    <image src="{{item.src}}"></image>
+  </view>
+  <view class="bottom">
+    <text>{{item.name}}</text>
+    <text>【5店通用】双人餐 免预约</text>
+    <text>{{item.money}} </text>
+    <image src="/images/icons/xinxin2.jpg"></image>
+  </view>
+  <view class="right">
+    <text>{{item.mi}}</text>
+    <text>已售{{item.num}}</text>
+  </view>
+</view>
+
+</view>  
+  
+<!--搜索-->  
+<view hidden="{{currentTab!==1}}">  
+  3KM  
+</view>  
+  
+<!--我-->  
+<view hidden="{{currentTab!==2}}">  
+  综合榜  
+</view>  
+<view hidden="{{currentTab!==3}}">  
+  筛选  
+</view> 

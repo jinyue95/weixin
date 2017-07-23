@@ -1,0 +1,55 @@
+/* pages/myself/myself.wxss */
+.head{
+    height: 220px;
+    width: 100%;
+    background: #EC6C00;
+    text-align: center;
+}
+.head .img image{
+    width: 140px;
+    height: 140px;
+    margin-top: 10px;
+}
+.head .h2{
+    font-size: 20px;
+    color: #CDD0D7;
+}
+.head .h3{
+    font-size: 14px;
+    color: #E9916D;
+    margin-top: 10px;
+}
+.nav{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #F2F2F2;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    color: #C6C6C6;
+}
+.banner{
+    display: flex;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #F2F2F2;
+}
+.banner .ban{
+    flex: 1;
+}
+.ban .img image{
+    width: 50px;
+    height: 40px;
+}
+.ban .tu{
+    padding-top: 5px;
+    color: #969696;
+    font-size: 14px;
+}

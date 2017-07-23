@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/jinxuan/jinxuan",
+    "pages/myself/myself",
+    "pages/meishi/meishi",
+    "pages/waimai/waimai",
+    "pages/zizhu/zizhu",
+    "pages/tiandian/tiandian",
+    "pages/jinri/jinri",
+    "pages/zhoubian/zhoubian",
+    "pages/KTV/KTV",
+    "pages/xindan/xindan",
+    "pages/dianying/dianying",
+    "pages/dingdan/dingdan",
+    "pages/fukuan/fukuan",
+    "pages/pingjia/pingjia",
+    "pages/tuikuan/tuikuan",
+    "pages/yue/yue",
+    "pages/list/list"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#EC6C00",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"write"
+  },
+  "tabBar": {
+    "selectedColor":"#EC6C00",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icons/1.png",
+      "selectedIconPath": "images/icons/11.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "附近",
+      "iconPath": "images/icons/2.png",
+      "selectedIconPath": "images/icons/22.png"
+    }, {
+      "pagePath": "pages/jinxuan/jinxuan",
+      "text": "精选",
+      "iconPath": "images/icons/3.png",
+      "selectedIconPath": "images/icons/33.png"
+    }, {
+      "pagePath": "pages/myself/myself",
+      "text": "我的",
+      "iconPath": "images/icons/4.png",
+      "selectedIconPath": "images/icons/44.png"
+    }]
+  }
+ 
+}

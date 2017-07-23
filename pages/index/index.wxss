@@ -1,0 +1,82 @@
+/**index.wxss**/
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  background: #FDF8F2;
+}
+.smoll{
+  width: 20%;
+  text-align: center;
+  padding-bottom: 20rpx;
+}
+.img{
+  padding-top: 15rpx;
+  padding-bottom: 0rpx;
+}
+.img image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.smoll text{
+  font-size: 30rpx;
+}
+.h3{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 40rpx;
+  padding-left: 60rpx;
+}
+.h3 image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.banner image{
+  width: 100%;
+  height: 150px;
+}
+.list{
+  display: flex;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.left{
+  flex: 3;
+}
+.left image{
+  width: 75px;
+  height: 75px;
+}
+.bottom{
+  flex: 6;
+  padding-left: 10px;
+}
+.bottom text{
+  margin-top: 5px;
+}
+.bottom text:nth-child(2){
+  font-size: 13px;
+  color: #999;
+}
+.bottom image{
+  height: 8px;
+  width: 30px;
+}
+.right{
+  flex: 2;
+}
+.right text{
+  font-size: 11px;
+  color: #999;
+  text-align: right;
+}
+.right text:nth-child(1){
+  margin-top: 20px;
+}
+.right text:nth-child(2){
+  margin-top: 20px;
+}
+text{
+  display: block;
+}

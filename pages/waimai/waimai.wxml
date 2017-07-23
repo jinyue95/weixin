@@ -1,0 +1,6 @@
+<!--pages/waimai/waimai.wxml-->
+<view class="classname">
+    <picker value="2017-06-05" start="1993-07-11" end="2200-01-12" mode="date" bindchange="change">
+        请输入时间:{{v}}
+    </picker>
+</view>

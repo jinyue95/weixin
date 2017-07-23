@@ -1,0 +1,91 @@
+<view class="nav">
+  <view class="smoll" bindtap="meishi">
+    <view class="img">
+      <image src="/images/icons/index1.jpg"></image>
+    </view> 
+    <text>美食</text>   
+  </view>
+  <view class="smoll" bindtap="waimai">
+    <view class="img">
+      <image src="/images/icons/index2.jpg"></image>
+    </view> 
+    <text>外卖</text>   
+  </view>
+  <view class="smoll" bindtap="zizhu">
+    <view class="img">
+      <image src="/images/icons/index3.jpg"></image>
+    </view> 
+    <text>自助餐</text>   
+  </view>
+  <view class="smoll" bindtap="tiandian">
+    <view class="img">
+      <image src="/images/icons/index4.jpg"></image>
+    </view> 
+    <text>甜点饮品</text>   
+  </view>
+  <view class="smoll" bindtap="jinri">
+    <view class="img">
+      <image src="/images/icons/index5.jpg"></image>
+    </view> 
+    <text>今日推荐</text>   
+  </view>
+  <view class="smoll" bindtap="zhoubian">
+    <view class="img">
+      <image src="/images/icons/index6.jpg"></image>
+    </view> 
+    <text>周边游</text>   
+  </view>
+  <view class="smoll" bindtap="KTV">
+    <view class="img">
+      <image src="/images/icons/index7.jpg"></image>
+    </view> 
+    <text>KTV</text>   
+  </view>
+  <view class="smoll" bindtap="xindan">
+    <view class="img">
+      <image src="/images/icons/index8.jpg"></image>
+    </view> 
+    <text>今日新单</text>   
+  </view>
+  <view class="smoll" bindtap="dianying">
+    <view class="img">
+      <image src="/images/icons/index9.jpg"></image>
+    </view> 
+    <text>电影</text>   
+  </view>
+  <view class="smoll" bindtap="meishi">
+    <view class="img">
+      <image src="/images/icons/index10.jpg"></image>
+    </view> 
+    <text>美食</text>   
+  </view>
+</view>
+<view class="h3">
+ <image src="/images/icons/xinxin.jpg"></image>猜你喜欢
+</view>
+<view class="banner">
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class="list" wx:for="{{arr}}" bindtap="vv">
+  <view class="left">
+    <image src="{{item.src}}"></image>
+  </view>
+  <view class="bottom">
+    <text>{{item.name}}</text>
+    <text>【5店通用】双人餐 免预约</text>
+    <text>{{item.money}} </text>
+    <image src="/images/icons/xinxin2.jpg"></image>
+  </view>
+  <view class="right">
+    <text>{{item.mi}}</text>
+    <text>已售{{item.num}}</text>
+  </view>
+</view>

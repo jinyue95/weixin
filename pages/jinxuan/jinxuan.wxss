@@ -1,0 +1,77 @@
+page{  
+  display: flex;  
+  flex-direction: column;  
+  height: 100%;  
+}  
+.navbar{  
+  flex: none;  
+  display: flex;  
+  background: #fff;  
+}  
+.navbar .item{  
+  position: relative;  
+  flex: auto;  
+  text-align: center;  
+  line-height: 80rpx;  
+}  
+.navbar .item.active{  
+  color: #EC6C00;  
+}  
+.navbar .item.active:after{  
+  content: "";  
+  display: block;  
+  position: absolute;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  height: 4rpx;  
+  background: #EC6C00;  
+}
+.list{
+  display: flex;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.left{
+  flex: 3;
+}
+.left image{
+  width: 75px;
+  height: 75px;
+}
+.bottom{
+  flex: 6;
+  padding-left: 10px;
+}
+.bottom text{
+  margin-top: 5px;
+}
+.bottom text:nth-child(2){
+  font-size: 13px;
+  color: #999;
+}
+.bottom image{
+  height: 8px;
+  width: 30px;
+}
+.right{
+  flex: 2;
+}
+.right text{
+  font-size: 11px;
+  color: #999;
+  text-align: right;
+}
+.right text:nth-child(1){
+  margin-top: 20px;
+}
+.right text:nth-child(2){
+  margin-top: 20px;
+}
+text{
+  display: block;
+}
+
+/*# sourceMappingURL=index.css.map */

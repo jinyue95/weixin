@@ -1,0 +1,17 @@
+<!--pages/list/list.wxml-->
+<text>pages/list/list.wxml</text>
+<view class="list" wx:for="{{drr}}">
+  <view class="left">
+    <image src="{{item.src}}"></image>
+  </view>
+  <view class="bottom">
+    <text>{{item.name}}</text>
+    <text>【5店通用】双人餐 免预约</text>
+    <text>{{item.money}} </text>
+    <image src="/images/icons/xinxin2.jpg"></image>
+  </view>
+  <view class="right">
+    <text>{{item.mi}}</text>
+    <text>已售{{item.num}}</text>
+  </view>
+</view>
